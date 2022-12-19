@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    width: 1280px;
+    height: 80px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo {
+    margin: 25px 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.nav-menu {
+    display: flex;
+    font-size: 17px;
+}
+.nav-menu-right {
+    line-height: 28px;
+    margin: 26px 50px;
+    font-style: normal;
+}
+.about-header {
+    width: 1280px;
+    height: 537.52px;
+    background: #F9E6F0;
+    display: flex;
+}
+.information {
+    margin: 120px 250px;
+    display: flex;
+    font-size: 17px;
+    line-height: 27px;
+}
+#name-avatar {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.bio-avatar {
+    margin: 81.26px 0px 81.26px 70px;
+}
+.info-bold {
+    font-weight: 700;
+}
+.avatar img {
+    border: 1px solid black;
+}
+.body-content{
+    width: 1280px;
+    height: 640px;
+    background: #FFFFFF;
+}
+.full-content {
+    margin: 120px 200px 125px 200px ;
+}
+.first-content {
+    color:#2B2B2B;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+.color-content {
+    color: #F6DCE9;
+    background: #009379;
+}
+.color-content, .normal-content {
+    font-size: 16px;
+    line-height: 26px;
+}
+.normal-content {
+    color: #2B2B2B;
+}
+.footer {
+    width: 1280px;
+    height: 669px;
+}
+.footer-info {
+    margin: 0px 100px 70px 100px;
+    border-top: 2px solid #dbdbdb;
+    display: flex;
+}
+.footer-content {
+    width: 360px;
+    margin-top: 70px;
+}
+.footer-input {
+    width: 530px;
+    margin: 70px 0px 0px 190px;
+}
+.footer-input input {
+    width: 530px;
+    padding: 21px 30px 21px 30px;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    border: none;
+}
+.footer-head {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.footer-body {
+    margin: 40px 0px 60px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
+}
+.footer-icon {
+   height: 80px;
+   align-items: center;
+   display: flex;
+}
+.footer-icon img {
+    margin-right: 16px;
+}
+#textComment {
+    height: 189px;
+}
+.footer-input button {
+    padding: 25px 82px 25px 82px;
+    gap: 10px;
+    background: #2D2D2D;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+input[value="Type your message here"] { 
+    padding-bottom: 150px;
+}
